@@ -201,11 +201,12 @@
         display: flex;
         bottom: 20px;
         margin-left: 5%;
+        position: relative;
 
         .title{
           right: 0;
           position: relative;
-          bottom: 5dvh;
+          bottom: 0dvh;
         }
 
         .tecnologia{
@@ -214,7 +215,7 @@
           justify-content: center;
           position: absolute;
           margin-right: 5%;
-          top: 19.5dvh;
+          top: 6dvh;
 
           img{
             width: 20px;
