@@ -5,7 +5,7 @@ import About from './components/About'
 import translations from './tradução/tradulation.js';
 import Footer from './components/Footer.jsx';
 import React,{ useState } from "react";
-import './App.scss'
+import './App.css'
 
 function App() {
 
