@@ -5,12 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>
-          &copy; {new Date().getFullYear()} Meu Site. Todos os direitos
-          reservados.
-        </p>
-        
-          <p>Clique ao lado para baixar meu currículo:</p>
+        <p>Clique ao lado para baixar meu currículo:</p>
         <button
           className="download-button"
           onClick={() => {

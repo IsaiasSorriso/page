@@ -10,8 +10,9 @@
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10%;
 
 
       .download-button {
@@ -113,7 +114,7 @@
     .download-button {
       width: 30px;
       height: 30px;
-
+      background-color: rgb(0, 0, 0);
       &:hover {
         width: 60px;
       }
@@ -122,8 +123,14 @@
         font-size: 11px;
       }
 
+      &:hover::before {
+        font-size: 8px;
+        opacity: 1;
+        bottom: unset;
+      }
+
       .svgIcon{
-        width: 10px;
+        width: 5px;
       }
     }
   }
