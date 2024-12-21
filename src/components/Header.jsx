@@ -1,16 +1,7 @@
 import "../styles/Header.scss";
 import React from "react";
-import translations from '../tradução/tradulation.js';
-//IMAGENS
-import iconHome from "../assets/iconHeader-Home.png";
-import iconAbout from "../assets/iconHeader-About.png";
-import iconSkills from "../assets/iconHeader-Skills.png";
-import iconProjects from "../assets/iconHeader-Projects.png";
-import iconContact from "../assets/iconsHeader-Contact.png";
-import iconCurriculum from "../assets/iconHeader-Upload.png";
 
-
-function Header({ onColorChange, onLanguageChange, language  }) {
+function Header({ onLanguageChange, language  }) {
 
   return (
     <div className="container-header">

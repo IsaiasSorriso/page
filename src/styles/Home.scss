@@ -1,7 +1,7 @@
 .container {
+  padding: 20px;
+  overflow-x: hidden;
   .min-container {
-    padding: 20px;
-
     .title-home {
       width: 95%;
       margin-top: 5%;
@@ -184,27 +184,41 @@
 }
 @media (max-width: 550px) {
   .container {
+    padding: 0;
     .min-container {
-      padding: 0;
+      
       ul{
-        // position: relative;
-        margin-top: 15dvh;
+        position: relative;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        right: 5%;
+        bottom: 5dvh;
       }
+
       .title-home {
-        margin-top: 10dvh;
-        margin-left: 10%;
-        width: 53.6%;
-        flex-direction: column;
-        align-items: first;
+        display: flex;
+        bottom: 20px;
+        margin-left: 5%;
+
+        .title{
+          right: 0;
+          position: relative;
+          bottom: 5dvh;
+        }
 
         .tecnologia{
-          height: 2dvh;
-          display: grid; /* Ativa o grid layout */
-          grid-template-columns: repeat(
-            4,
-            1fr
-          ); /* 2 colunas de tamanhos iguais */
-          gap: 50%;
+          display: flex; 
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          margin-right: 5%;
+          top: 19.5dvh;
+
+          img{
+            width: 20px;
+          }
 
         }
         
