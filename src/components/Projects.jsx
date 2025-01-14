@@ -10,8 +10,8 @@ import iconGit from "../assets/iconGitHub.png";
 import iconMongoDB from "../assets/iconMongoDB.png";
 import iconSpringBoot from "../assets/iconSpringBoot.png";
 import iconMySQL from "../assets/iconMySQL.png";
-import imgProjectGP from "../assets/imgProjectSRP.webp";
-import imgProjectSRP from "../assets/imgProjectGP.webp";
+import imgProjectSRP from "../assets/imgProjectSRP.webp";
+import imgProjectGP from "../assets/imgProjectGP.webp";
 import imgProjectTS from "../assets/imgProjectTS.webp";
 
 const Projects = ({texts}) => {
